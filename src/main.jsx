@@ -14,6 +14,7 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import User from "./Components/User/User";
 import Github from "./Components/Github/Github";
+import NotFound from "./Components/NotFound";
 import { Route } from "react-router-dom";
 import { githubInfoLoader } from "./Components/Github/Github";
 
