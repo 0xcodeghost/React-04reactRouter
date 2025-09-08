@@ -17,6 +17,7 @@ import Github from "./Components/Github/Github";
 import NotFound from "./Components/NotFound";
 import { Route } from "react-router-dom";
 import { githubInfoLoader } from "./Components/Github/Github";
+<Route path="*" element={<NotFound />} />
 
 // const router = createBrowserRouter([
 //   {
